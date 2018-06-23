@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/lkd"
+    android:clipChildren="false">
+
+    <RelativeLayout
+        android:id="@+id/ry_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="25dp"
+        android:clipChildren="false">
+
+        <mr_immortalz.com.modelqq.custom.CustomViewPager
+            android:id="@+id/vp_back"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp" />
+
+        <mr_immortalz.com.modelqq.custom.CustomViewPager
+            android:id="@+id/vp"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:layout_below="@id/vp_back"
+            android:layout_marginLeft="130dp"
+            android:layout_marginRight="130dp" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
